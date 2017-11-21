@@ -1,0 +1,29 @@
+<!-- In order for the program to work properly, locate the folders inside node_modules, and place the folders titled "atl-js-code", and "circletype", inside the node_modules folder inside the ATL-AngularCLI-Angel. This is a quick work around while I fix the nod_modules in the angular project.
+
+In addition, you must install bootstrap, jquery, and popper on the project.
+
+You do this by going to the terminal, cd into the project folder, and run:
+
+      npm install bootstrap --save
+      npm install jquery --save
+      npm install popper.js --save
+
+You must also modify the script and styles in the angular-cli.json file.
+
+Unless you made any additional changes yourself, the included angular-cli.json in this repo should look exactly like the angular-cli.json on the atl-angluarcli-angel project. The code below is what I am referring to in the angular-cli.json file:
+
+  "styles": [
+    "../node_modules/bootstrap/dist/css/bootstrap.css",
+    "styles.css"
+  ],
+  "scripts": [
+    "../node_modules/jquery/dist/jquery.slim.js",
+    "../node_modules/popper.js/dist/umd/popper.js",
+    "../node_modules/bootstrap/dist/js/bootstrap.js",
+    "../node_modules/circletype/circletype.min.js",
+    "../node_modules/atl-js-code/splash.js"
+  ],
+
+  For more info on this last part, visit https://github.com/angular/angular-cli/wiki/stories-global-lib
+
+After that, everything should be work ing just fine! -->
